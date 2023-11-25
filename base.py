@@ -1,4 +1,7 @@
-# 数字 - 整数、浮点数、布尔
+# 数字
+#   整数
+#   浮点数
+#   布尔
 # 字符串
 # 列表 - 有序可变序列
 # 元组 - 有序不可变序列
@@ -11,8 +14,10 @@ this is a comment
 
 def helloWorld():
     print("hello world")
-    print("还剩余", 1, "元")  # 分割打印
-    print("hello", end=" ")  # 不换行的print
+    # 分割打印
+    print("还剩余", 1, "元")
+    # 不换行的print
+    print("hello", end=" ")
     print("world", end="")
 
 def var():
@@ -57,8 +62,7 @@ def ifelse():
     else:
         print("成年")
 
-def loop():
-    # while循环
+def while_test():
     current = 1
     sum = 0
     while(current <= 100):
@@ -66,7 +70,7 @@ def loop():
         current += 1
     print(sum)
 
-    # for循环
+def for_test():
     name = "it黑马"
     for char in name:
         print(char)
