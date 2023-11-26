@@ -1,5 +1,5 @@
 # 数字
-#   整数
+#   整数 - 没有long类型
 #   浮点数
 #   布尔
 # 字符串
@@ -38,7 +38,7 @@ def var():
 
 def calc_character():
     print("5 / 3 = ", 5 / 3)      # 计算小数位
-    print("5 // 3 = ", 4 // 3)    # 不计算小数位
+    print("5 // 3 = ", 4 // 3)    # 取整除
 
 def str():
     name = '黑马程序员'
@@ -53,7 +53,7 @@ def getInput():
     name = input("你是谁")
     print("我的名字是", name)
 
-def ifelse():
+def if_else():
     age = 10
     if age < 8:
         print("小孩")
@@ -61,6 +61,14 @@ def ifelse():
         print("未成年")
     else:
         print("成年")
+
+    # and or not
+    if age <10 and age > 5:
+        print("child")
+    elif age > 10 or age < 20:
+        print("child1")
+    elif not age > 30:
+        print("child2")
 
 def while_test():
     current = 1
@@ -83,4 +91,3 @@ def for_test():
 
     for i in range(1, 5, 2):
         print(i)
-
