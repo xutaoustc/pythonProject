@@ -8,8 +8,11 @@ def sum(x, y):
     return x + y
 
 
-# 多返回函数
 def multi_return():
+    """
+    多返回函数
+    :return:
+    """
     return 1, 2
 x, y = multi_return()
 
