@@ -1,11 +1,11 @@
-def sum(x, y):
-    """
-    两数相加
-    :param x: 参数1
-    :param y: 参数2
-    :return: 返回值
-    """
-    return x + y
+
+def hello_world():
+    print("hello world")
+    # 分割打印
+    print("还剩余", 1, "元")
+    # 不换行的print
+    print("hello", end=" ")
+    print("world", end="")
 
 
 def multi_return():
